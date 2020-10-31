@@ -1,0 +1,19 @@
+<mat-card>
+  <mat-tab-group>
+    <mat-tab label="Input Binding">
+      <app-input-binding firstName="Bob" lastName="March" [age]="age">
+      </app-input-binding>
+    </mat-tab>
+    <mat-tab label="Event Bind">
+      <app-event></app-event>
+    </mat-tab>
+    <mat-tab label="Clients app example">
+      <app-clients></app-clients>
+      <app-parent-child></app-parent-child>
+      <app-on-changes></app-on-changes>
+    </mat-tab>
+    <mat-tab label="Intercepting example">
+      <app-intercepting></app-intercepting>
+    </mat-tab>
+  </mat-tab-group>
+</mat-card>
